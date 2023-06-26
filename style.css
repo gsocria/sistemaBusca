@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    background: whitesmoke;
+}
+
+header {
+    text-align: center;
+    color: white;
+  
+    padding: 3.2rem;
+  
+    max-width: 46rem;
+    margin: auto;
+  }
+  
+
+.input-caixa{
+    position: relative;
+}
+
+header input {
+    margin-top: 2rem;
+    padding: 1rem 1.6rem;
+    border-radius: .8rem;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.input-caixa i {
+    color: black;
+    position: absolute;
+    right: 1.2rem;
+    bottom: 1.2rem;
+}
+
+.foto {
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+.linha {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudo {
+    margin: 15px;
+
+    border-radius: 20px;
+    height: 350px;
+    background: black;
+}
+
+.conteudo p {
+    padding-top: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.camisa {
+    display: flex;
+    width: 300px;
+    height: 300px;
+
+}
+
+.camisa img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+
+
+    .conteudo {
+        margin: 15px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 200px;
+        background: black;
+    }
+    
+    .conteudo p {
+        padding-top: 15px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    
+    .camisa {
+        display: flex;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .camisa img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+}
